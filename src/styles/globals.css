@@ -1,0 +1,93 @@
+/* Dark theme for Big Calendar */
+.dark-calendar {
+  background-color: #111827 !important;
+  color: #e5e7eb !important;
+}
+
+.dark-calendar .rbc-header {
+  background-color: #1f2937;
+  color: #9ca3af;
+  border-bottom: 1px solid #374151 !important;
+  padding: 8px;
+  font-weight: normal;
+}
+
+.dark-calendar .rbc-time-header {
+  background-color: #1f2937;
+  border-color: #374151;
+}
+
+.dark-calendar .rbc-time-content {
+  border-color: #374151;
+}
+
+.dark-calendar .rbc-time-slot {
+  color: #9ca3af;
+}
+
+.dark-calendar .rbc-day-bg {
+  background-color: #111827;
+  border-color: #374151 !important;
+}
+
+.dark-calendar .rbc-off-range-bg {
+  background-color: #1f2937;
+}
+
+.dark-calendar .rbc-today {
+  background-color: rgba(79, 70, 229, 0.1) !important;
+}
+
+.dark-calendar .rbc-current-time-indicator {
+  background-color: #4f46e5;
+}
+
+.dark-calendar .rbc-time-gutter {
+  color: #9ca3af;
+}
+
+.dark-calendar .rbc-timeslot-group {
+  border-color: #374151;
+}
+
+.dark-calendar .rbc-time-view {
+  border-color: #374151;
+}
+
+.dark-calendar .rbc-event-content {
+  font-weight: 400;
+}
+
+.dark-calendar .rbc-now {
+  font-weight: normal;
+  color: #4f46e5;
+}
+
+/* Mini Calendar dark theme overrides */
+.react-calendar {
+  background-color: #1f2937 !important;
+  border: none !important;
+  color: #e5e7eb !important;
+}
+
+.react-calendar__navigation button:enabled:hover,
+.react-calendar__navigation button:enabled:focus {
+  background-color: #374151 !important;
+}
+
+.react-calendar__tile:enabled:hover,
+.react-calendar__tile:enabled:focus {
+  background-color: #374151 !important;
+}
+
+.react-calendar__tile--now {
+  background-color: rgba(79, 70, 229, 0.1) !important;
+}
+
+.react-calendar__tile--active {
+  background-color: #4f46e5 !important;
+}
+
+.react-calendar__month-view__days__day--weekend {
+  color: #9ca3af !important;
+}

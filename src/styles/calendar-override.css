@@ -1,0 +1,33 @@
+.rbc-header {
+  padding: 8px;
+  font-weight: 500;
+  color: #4b5563;
+}
+
+.rbc-event {
+  background-color: #2563eb !important;
+}
+
+.rbc-today {
+  background-color: #f8fafc;
+}
+
+.rbc-off-range-bg {
+  background-color: #f8fafc;
+}
+
+.rbc-time-content {
+  border-top: 1px solid #e5e7eb;
+}
+
+.rbc-time-header-content {
+  border-left: 1px solid #e5e7eb;
+}
+
+.rbc-time-view {
+  border: 1px solid #e5e7eb;
+}
+
+.rbc-month-view {
+  border: 1px solid #e5e7eb;
+}

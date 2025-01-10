@@ -1,0 +1,60 @@
+{
+  "teamMembers": [
+    {
+      "name": "Ron Marche Rhyss Q. Uy",
+      "role": "Full Stack Developer",
+      "expertise": "React, Node.js, Python",
+      "image": "/src/assets/images/team/ron-uy.jpg",
+      "email": "ron.uy@codex.com",
+      "contact": "+1 234 567 890"
+    },
+    {
+      "name": "Harley Dave Villacastin",
+      "role": "UI/UX Designer",
+      "expertise": "React, Python, C#",
+      "image": "/src/assets/images/team/harley-villacastin.jpg",
+      "email": "harleeeeh@gmail.com",
+      "contact": "+639081385638"
+    },
+    {
+      "name": "Lexter Oliva",
+      "role": "Full Stack Developer",
+      "expertise": "React, Node.js, Python",
+      "image": "/src/assets/images/team/lexter-oliva.jpg",
+      "email": "kaiznitullano@gmail.com",
+      "contact": "+639636303440"
+    },
+    {
+      "name": "Russel L. Nitullano",
+      "role": "Full Stack Developer",
+      "expertise": "React, Node.js, Python",
+      "image": "/src/assets/images/team/russel-nitullano.jpg",
+      "email": "kaiznitullano@gmail.com",
+      "contact": "+639636303440"
+    },
+    {
+      "name": "Rafael Lorenz T. Laurel",
+      "role": "UI/UX Designer",
+      "expertise": "HTML, CSS, JavaScript, C#",
+      "image": "/src/assets/images/team/rafael-laurel.jpg",
+      "email": "laurelrfl08@gmail.com",
+      "contact": "+63 930 046 5303"
+    },
+    {
+      "name": "Elmer Malbas Jr.",
+      "role": "Front End Developer",
+      "expertise": "React, Node.js, Java",
+      "image": "/src/assets/images/team/elmer-malbas.jpg",
+      "email": "elmermalbasjr.dev@gmail.com",
+      "contact": "+639203198422"
+    },
+    {
+      "name": "Jayford D. Joromo",
+      "role": "UI/UX Designer",
+      "expertise": "React, Python, C#",
+      "image": "/src/assets/images/team/jayford-joromo.jpg",
+      "email": "jayfordjoromo@gmail.com",
+      "contact": "+639971271837"
+    }
+  ]
+}

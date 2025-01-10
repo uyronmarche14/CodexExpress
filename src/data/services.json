@@ -1,0 +1,93 @@
+{
+  "services": [
+    {
+      "title": "Mobile Development",
+      "icon": "📱",
+      "description": "Native and cross-platform mobile applications for iOS and Android.",
+      "technologies": [
+        "React Native",
+        "Flutter",
+        "Swift",
+        "Kotlin",
+        "Firebase"
+      ],
+      "timeline": "4-8 weeks"
+    },
+    {
+      "title": "Web Development",
+      "icon": "🌐",
+      "description": "Full-stack web solutions using modern technologies and frameworks.",
+      "features": [
+        "Responsive Design",
+        "SEO Optimization",
+        "Performance Tuning",
+        "Custom Features"
+      ],
+      "technologies": ["React", "Next.js", "Node.js", "MongoDB", "AWS"],
+      "benefits": ["Increased User Engagement", "Better Conversion Rates"],
+      "timeline": "2-4 weeks",
+      "processSteps": [
+        "Planning",
+        "Design",
+        "Development",
+        "Testing",
+        "Deployment"
+      ]
+    },
+    {
+      "title": "Backend Development",
+      "icon": "⚙️",
+      "description": "Robust server-side solutions with cloud-native technologies.",
+      "technologies": ["Node.js", "Python", "Java", "PostgreSQL", "Docker"],
+      "timeline": "3-6 weeks"
+    },
+    {
+      "title": "Frontend Development",
+      "icon": "🎨",
+      "description": "Modern, responsive UI development with cutting-edge frameworks.",
+      "technologies": ["React", "Vue.js", "TypeScript", "Tailwind", "Redux"],
+      "timeline": "2-3 weeks"
+    },
+    {
+      "title": "UI/UX Design",
+      "icon": "✨",
+      "description": "User-centered design solutions with intuitive interfaces.",
+      "technologies": ["Figma", "Adobe XD", "Sketch", "Principle", "InVision"],
+      "timeline": "1-2 weeks"
+    },
+    {
+      "title": "Desktop Applications",
+      "icon": "🖥️",
+      "description": "Cross-platform desktop solutions for maximum productivity.",
+      "technologies": ["Electron", ".NET", "Qt", "Python", "C++"],
+      "timeline": "4-8 weeks"
+    },
+    {
+      "title": "AI & Machine Learning",
+      "icon": "🤖",
+      "description": "Intelligent solutions using advanced ML models.",
+      "technologies": [
+        "TensorFlow",
+        "PyTorch",
+        "Scikit-learn",
+        "CUDA",
+        "Python"
+      ],
+      "timeline": "6-12 weeks"
+    },
+    {
+      "title": "Data Visualization",
+      "icon": "📊",
+      "description": "Interactive data dashboards and visualizations.",
+      "technologies": ["D3.js", "Tableau", "Power BI", "Python", "R"],
+      "timeline": "2-4 weeks"
+    },
+    {
+      "title": "Cloud Solutions",
+      "icon": "☁️",
+      "description": "Scalable cloud architecture and deployment solutions.",
+      "technologies": ["AWS", "Azure", "GCP", "Kubernetes", "Terraform"],
+      "timeline": "3-6 weeks"
+    }
+  ]
+}

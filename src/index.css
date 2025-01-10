@@ -1,0 +1,236 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  body {
+    font-family: "HubotSans", sans-serif;
+    @apply bg-background text-headline;
+  }
+
+  @font-face {
+    font-family: "HubotSans";
+    src: url("../assets/fonts/HubotSans_Condensed-Regular.ttf")
+      format("truetype");
+    font-weight: normal;
+  }
+
+  @font-face {
+    font-family: "HubotSans";
+    src: url("../assets/fonts/HubotSans_Condensed-Bold.ttf") format("truetype");
+    font-weight: bold;
+  }
+
+  @font-face {
+    font-family: "HubotSans";
+    src: url("../assets/fonts/HubotSans_Condensed-Light.ttf") format("truetype");
+    font-weight: 300;
+  }
+
+  @font-face {
+    font-family: "HubotSans";
+    src: url("../assets/fonts/HubotSans_Condensed-ExtraBold.ttf")
+      format("truetype");
+    font-weight: 800;
+  }
+
+  @font-face {
+    font-family: "HubotSans";
+    src: url("../assets/fonts/HubotSans_Condensed-Italic.ttf")
+      format("truetype");
+    font-style: italic;
+  }
+
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  .animate-fadeIn {
+    animation: fadeIn 1.2s ease-out;
+  }
+
+  @keyframes slideIn {
+    from {
+      opacity: 0;
+      transform: translateX(-30px);
+    }
+    to {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+
+  .animate-slideIn {
+    animation: slideIn 1s ease-in-out;
+  }
+
+  .btn-hover {
+    transition: all 0.3s ease-in-out;
+  }
+
+  .btn-hover:hover {
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+  }
+
+  @layer utilities {
+    .animate-fadeIn {
+      animation: fadeIn 0.6s ease-out forwards;
+    }
+    .animate-slideUp {
+      animation: slideUp 0.8s ease-out forwards;
+    }
+    .animate-scaleIn {
+      animation: scaleIn 0.5s ease-out forwards;
+    }
+
+    @keyframes fadeIn {
+      0% {
+        opacity: 0;
+      }
+      100% {
+        opacity: 1;
+      }
+    }
+    @keyframes slideUp {
+      0% {
+        transform: translateY(50px);
+        opacity: 0;
+      }
+      100% {
+        transform: translateY(0);
+        opacity: 1;
+      }
+    }
+    @keyframes scaleIn {
+      0% {
+        transform: scale(0.9);
+        opacity: 0.8;
+      }
+      100% {
+        transform: scale(1);
+        opacity: 1;
+      }
+    }
+
+    .scrollbar-hide::-webkit-scrollbar {
+      display: none;
+    }
+
+    .scrollbar-hide {
+      -ms-overflow-style: none;
+      scrollbar-width: none;
+    }
+
+    .pause {
+      animation-play-state: paused;
+    }
+  }
+
+  @keyframes slideLeft {
+    from {
+      transform: translateX(0);
+    }
+    to {
+      transform: translateX(-50%);
+    }
+  }
+
+  .animate-slideLeft {
+    animation: slideLeft 30s linear infinite;
+  }
+
+  /* Glass effect */
+  .glassmorphism {
+    background: rgba(255, 255, 255, 0.05);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    transition: all 0.3s ease;
+  }
+
+  .glassmorphism:hover {
+    background: rgba(255, 255, 255, 0.1);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  }
+
+  /* Blob animation */
+  @keyframes blob {
+    0%,
+    100% {
+      transform: translate(0, 0) scale(1);
+    }
+    25% {
+      transform: translate(20px, -20px) scale(1.1);
+    }
+    50% {
+      transform: translate(-20px, 20px) scale(0.9);
+    }
+    75% {
+      transform: translate(20px, 20px) scale(1.1);
+    }
+  }
+
+  .animate-blob {
+    animation: blob 7s infinite;
+  }
+
+  .animation-delay-2000 {
+    animation-delay: 2s;
+  }
+
+  .animation-delay-4000 {
+    animation-delay: 4s;
+  }
+  .dark-calendar .rbc-month-view,
+  .dark-calendar .rbc-time-view,
+  .dark-calendar .rbc-agenda-view {
+    background-color: #0b0e25; /* Or your dark color preference */
+  }
+
+  .dark-calendar .rbc-time-header-cell,
+  .dark-calendar .rbc-time-header-content,
+  .dark-calendar .rbc-day-bg {
+    background-color: #111827; /* Another shade of dark gray/blue */
+  }
+
+  .dark-calendar .rbc-timeslot-group {
+    border-bottom: 1px solid #2d2d2d;
+  }
+
+  .dark-calendar .rbc-time-header,
+  .dark-calendar .rbc-month-row {
+    border-color: #2d2d2d;
+  }
+
+  .dark-calendar .rbc-time-content > * + * > * {
+    border-left: 1px solid #2d2d2d;
+  }
+
+  .dark-calendar .rbc-event {
+    border: none;
+  }
+
+  /* Adjust the timeslot labels */
+  .dark-calendar .rbc-label {
+    color: #ccc;
+    font-weight: 300;
+  }
+
+  .dark-calendar .rbc-off-range-bg {
+    background: #1f2937; /* A slightly darker color for off-range days */
+  }
+  /* Force the month cells to allow overflow */
+  .dark-calendar .rbc-month-view,
+  .dark-calendar .rbc-month-row,
+  .dark-calendar .rbc-date-cell,
+  .dark-calendar .rbc-day-bg {
+    overflow: visible !important;
+  }
+}

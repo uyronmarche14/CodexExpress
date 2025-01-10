@@ -1,0 +1,89 @@
+@font-face {
+  font-family: "RobotoSlab";
+  src: url("../assets/fonts/RobotoSlab-Regular.ttf") format("truetype");
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "RobotoSlab";
+  src: url("../assets/fonts/RobotoSlab-Bold.ttf") format("truetype");
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: "RobotoSlab";
+  src: url("../assets/fonts/RobotoSlab-Light.ttf") format("truetype");
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: "RobotoSlab";
+  src: url("../assets/fonts/RobotoSlab-ExtraBold.ttf") format("truetype");
+  font-weight: 800;
+}
+
+.react-calendar {
+  width: 100% !important;
+  max-width: 100%;
+  background-color: #121217;
+  border: 1px solid #e5e7eb;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.06);
+  font-family: "RobotoSlab", sans-serif;
+  line-height: 1.5em;
+  color: white;
+}
+
+.react-calendar__tile {
+  height: 2.5rem;
+  transition: background-color 0.2s ease;
+  color: white;
+}
+
+.react-calendar__month-view__days__day--weekend {
+  color: #ff8906; /* Primary color for weekends */
+}
+
+.react-calendar__tile--now {
+  background-color: #f4f4f4;
+  color: #121217;
+  border-radius: 6px;
+}
+
+.react-calendar__tile--active {
+  background-color: #ffb347;
+  color: #121217;
+  border-radius: 6px;
+}
+
+.react-calendar__navigation button {
+  color: #ff8906;
+  background: none;
+  font-size: 1rem;
+  margin: 2px;
+  font-family: "RobotoSlab", sans-serif;
+}
+
+.react-calendar__navigation button:hover {
+  background-color: #1e1e24;
+  border-radius: 6px;
+}
+
+input[type="time"]::-webkit-calendar-picker-indicator {
+  filter: invert(1);
+  cursor: pointer;
+}
+
+input[type="time"] {
+  color: white;
+  background-color: transparent;
+  border: 1px solid #4b4b4b;
+  padding: 10px;
+  border-radius: 6px;
+  font-family: "RobotoSlab", sans-serif;
+}
+
+input[type="time"]:hover,
+input[type="time"]:focus {
+  border-color: #ff8906;
+}
